@@ -1,0 +1,41 @@
+.intro {
+    padding: 234px 0 250px;
+    background: url("../img/intro.png") no-repeat left calc(50% + 425px) top;
+    background-size: contain;
+    border-bottom: 1px solid #DAD9D6;
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+  
+  .intro {
+      background-image: url("../img/intro@2x.png");
+  }
+}
+.intro__content {
+    width: 630px;
+}
+.intro__title {
+    font-size: 54px;
+    line-height: 73px;
+    letter-spacing: 2.16px;     
+    text-transform: uppercase;
+    color: #181A3F;
+    margin: 0;
+}
+.intro__descreption {
+    font-size: 18px;
+    line-height: 30px;
+    color: #555671;
+    margin: 0;
+    padding-bottom: 57px;
+    padding-top: 13px;
+}
+.intro__actions {
+    @include flex;
+}

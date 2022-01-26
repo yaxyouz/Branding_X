@@ -1,0 +1,83 @@
+.services__header {
+    border-top: none;
+}
+.services__title {
+    width: 548px;
+}
+.services__link {
+    padding: 16px 56px;
+}
+.services__list {
+    @include reset-list;
+    @include flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.services__item {
+    width: 336px;
+    margin-right: 97px;
+    margin-bottom: 70px;    
+}
+.services__item:nth-child(3n),
+.services__item:last-child {
+    margin-right: 0;
+}
+.services__item:nth-child(n+4) {
+    margin-bottom: 0;
+}
+.services__item-span {
+    color: #FF7549;
+}
+.services__item-title {
+    font-size: 28px;
+    line-height: 39px;
+    color: #181A3F;
+    margin: 0;
+    padding-top: 23px;
+    padding-bottom: 13px;
+}
+.services__item-descreption {
+    margin: 0;
+}
+.services__item--branding::before {
+    content: "";
+    display: block;
+    width: 84px;
+    height: 84px;
+    background: url("../img/branding.png") no-repeat;
+}
+.services__item--web::before {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 91px;
+    background: url("../img/web-design.png") no-repeat;
+}
+.services__item--ux::before {
+    content: "";
+    display: block;
+    width: 84px;
+    height: 84px;
+    background: url("../img/ux-design.png") no-repeat;
+}
+.services__item--graphic::before {
+    content: "";
+    display: block;
+    width: 91px;
+    height: 92px;
+    background: url("../img/graphic-design.png") no-repeat;
+}
+.services__item--motion::before {
+    content: "";
+    display: block;
+    width: 113px;
+    height: 60px;
+    background: url("../img/motion-graphics.png") no-repeat;
+}
+.services__item--marketing::before {
+    content: "";
+    display: block;
+    width: 87px;
+    height: 85px;
+    background: url("../img/marketing.png") no-repeat;
+}

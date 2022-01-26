@@ -1,0 +1,17 @@
+@mixin reset-list {
+  margin: 0;
+  padding: 0;
+  padding-inline-start: 0;
+  list-style: none;
+}
+  
+@mixin reset-btn {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+@mixin flex {
+  display: flex;
+  flex-wrap: wrap;
+}

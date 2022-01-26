@@ -1,0 +1,74 @@
+.footer-top__container {
+    padding-top: 182px;
+    padding-bottom: 164px;
+    @include flex;
+}
+.footer-top__content {
+    width: 281px;
+    @include flex;
+    flex-direction: column;
+}
+.footer-top__link {
+    font-size: 22px;
+    line-height: 32px;
+    color: #181A3F;
+}
+.footer-top__span {
+    color: #FF7549;
+}
+.footer-top__link--mail {
+    margin-bottom: 24px;
+    margin-top: 52px;
+}
+.footer-top__pages {
+    width: 390px;
+    margin-left: 219px;
+}
+.footer-top__nav {
+    @include flex;
+}
+.footer-top__title {
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    color: #181A3F;
+    margin: 0;
+    padding-bottom: 45px;
+}
+.footer-top__list {
+    @include reset-list;
+    width: 175px;
+    margin-right: 38px;
+}
+.footer-top__list:last-child {
+    margin-right: 0;
+}
+.footer-top__item {
+    margin-bottom: 31px;
+}
+.footer-top__item:last-child {
+    margin-bottom: 0;
+}
+.footer-top__item-link {
+    letter-spacing: 0.72px;
+    text-transform: uppercase;
+    color: #555671;
+}
+.footer-top__item-link:hover {
+    color: #181A3F;
+}
+.footer-top__utility {
+    flex-grow: 1;
+}
+.footer-top__utility-list {
+    width: 215px;
+    @include reset-list;
+    margin-left: auto;
+}
+.footer-top__utility-item {
+    margin-bottom: 31px;
+}
+.footer-top__utility-item:last-child {
+    margin-bottom: 0;
+}

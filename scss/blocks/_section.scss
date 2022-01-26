@@ -1,0 +1,19 @@
+.section {
+    padding-bottom: 240px;
+}
+.section__header {
+    @include flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 245px;
+    padding-bottom: 80px;
+    border-top: 1px solid #DAD9D6;
+}
+.section__title {
+    font-size: 40px;
+    line-height: 58px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #181A3F;
+    margin: 0;
+}

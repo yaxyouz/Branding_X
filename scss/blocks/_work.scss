@@ -1,0 +1,31 @@
+.work {
+    background-color: #F0EFEC;
+}
+.work__container {
+    @include flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 182px;
+    padding-bottom: 176px;
+}
+.work__title {
+    width: 375px;
+    font-size: 60px;
+    line-height: 74px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #181A3F;
+    margin: 0;
+}
+.work__link {
+    font-size: 32px;
+    line-height: 49px;
+    color: #181A3F;
+    display: block;
+}
+.work__link--mail {
+    margin-bottom: 25px;
+}
+.work__span {
+    color: #FF7549;
+}

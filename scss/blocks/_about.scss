@@ -1,0 +1,18 @@
+.about__title {
+    width: 476px;
+}
+.about__content {
+    @include flex;
+    flex-direction: column;
+    background: url("../img/about-bg.png") no-repeat center;
+}
+.about__text {
+    width: 418px;
+    margin: 0;
+}
+.about__descreption {
+    width: 418px;
+    margin: 0;
+    margin-left: auto;
+    margin-top: 639px;
+}

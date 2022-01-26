@@ -1,0 +1,18 @@
+.main-link {
+    display: inline-block;
+    padding: 17px 56px;
+    color: #181A3F;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+    border: 2px solid #181A3F;
+    color: #181A3F;
+}
+.main-link--orange {
+    color: #fff;
+    background-color: $accent;
+    border-color: $accent;
+    margin-right: 28px;
+}

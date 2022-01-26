@@ -1,0 +1,22 @@
+.today {
+    background: url("../img/today-img.png") no-repeat left calc(50% + 338px) top;
+    background-size: contain;
+    background-color: #F0EFEC;
+}
+.today__content {
+    width: 464px;
+    padding-top: 208px;
+    padding-bottom: 233px;
+}
+.today__title {
+    font-size: 40px;
+    line-height: 58px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #181A3F;
+    margin: 0;
+    padding-bottom: 55px;
+}
+.today__link {
+    margin: 0;
+}

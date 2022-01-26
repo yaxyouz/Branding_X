@@ -1,0 +1,24 @@
+.footer-bottom {
+    background-color: #F0EFEC;
+    padding-top: 38px;
+    padding-bottom: 31px;
+}
+.footer-bottom__container {
+    @include flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-bootom__title {
+    margin: 0;
+}
+.footer-bottom__list {
+    @include reset-list;
+    @include flex;
+    align-items: center;
+}
+.footer-bottom__item {
+    margin-right: 28px;
+}
+.footer-bottom__item:last-child {
+    margin-right: 0;
+}
